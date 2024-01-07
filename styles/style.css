@@ -27,8 +27,6 @@ button {
 
 button:hover {
     background: #e9345e;
-
-
 }
 
 .container {
@@ -186,9 +184,36 @@ header,
 }
 
 #hot-deal .hot-deal-img {
-   max-width: 318px;
+    max-width: 318px;
 }
 
 #hot-deal .hot-deal-text h2 .important {
     color: #E55473;
+}
+
+#instagram,
+#newsletter {
+    margin-top: 128px;
+    margin-bottom: 48px;
+}
+
+.newsletter-main {
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 122px 0;
+}
+
+#newsletter form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    outline: 1px solid Red;
 }
