@@ -144,6 +144,7 @@ header {
 .group-content .group .group-img {
     justify-content: space-around;
     display: flex;
+    height: 60px;
 }
 
 .group-content .group p {
