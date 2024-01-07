@@ -21,15 +21,14 @@ button {
     border: none;
     font-size: 20px;
     padding: 15px 28px;
+    cursor: pointer;
+    transition: all 1s;
 }
 
-button:hover{
-   background-color: #D94567;
-   cursor: pointer;
-   
-}
-header {
-    background-color: rgba(229, 84, 115, 0.10);
+button:hover {
+    background: #e9345e;
+
+
 }
 
 .container {
@@ -37,6 +36,27 @@ header {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
 
 .banner {
     display: flex;
@@ -56,7 +76,84 @@ header {
     font-weight: 800;
     line-height: normal;
 }
-.banner .banner-img img{
+
+.banner .banner-img img {
     width: 100%;
     vertical-align: middle;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+    margin-top: 25px;
+}
+
+.section-content .flower .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: #272727;
+    margin: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+.group-content {
+    display: flex;
+    gap: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 40px 80px;
+    justify-content: space-between;
+}
+
+
+.group-content .group .group-img {
+    justify-content: space-around;
+    display: flex;
+}
+
+.group-content .group p {
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
+
 }
