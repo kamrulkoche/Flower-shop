@@ -191,6 +191,16 @@ header,
     color: #E55473;
 }
 
+.container .group {
+    display: flex;
+}
+
+.group-pic {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+
 #instagram,
 #newsletter {
     margin-top: 128px;
