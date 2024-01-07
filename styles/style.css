@@ -227,3 +227,49 @@ header,
     font-size: 20px;
     outline: 1px solid Red;
 }
+
+.footer {
+    background-color: black;
+    margin-top: 128px;
+    padding: 128px 0;
+
+}
+
+.footer .section-heading h2 {
+    color: #E55473;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer .section-heading p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.footer .section-heading small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer .section-heading h2 .important {
+    color: white;
+}
+
+.footer .section-heading * {
+    margin-bottom: 24px;
+}
